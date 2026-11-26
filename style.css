@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -31,58 +30,128 @@ html, body {
 
 #logo {
     width: 20%;
-    height: 100%;
-    background-color: rgb(192, 57, 57);
+    height: 80%;
+    background-color: rgb(81, 46, 46);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+    
+
+
 }
 
-#i {
+#menu_btn {
     width: 10%;
     height: 80%;
     background-color: rgb(192, 57, 57);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 20px;
 }
 
-#i i {
+#menu_btn i {
     color: white;
     font-size: 25px;
     cursor: pointer;
 }
 
-#i i:hover {
+#menu_btn i:hover {
     color: #b76cff;
 }
 
 #sections {
     width: 100%;
-    height: 400px;
+    height: 600px;
     display: flex;
     gap: 20px;
     padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 #section2 {
-    width: 25%;
+    width: 30%;
     height: 100%;
     background-color: rgb(94, 94, 209);
 }
 
 #section3 {
-    width: 25%;
+    width: 30%;
     height: 100%;
     background-color: rgb(182, 182, 248);
 }
 
 #section4 {
-    width: 25%;
+    width: 30%;
     height: 100%;
     background-color: rgb(79, 79, 125);
 }
 
+/* Hire Me Button */
+
+#left_content_btn {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#hire_me_btn {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(192, 57, 57);
+    color: white;
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px 5px 20px;
+}
+
+#circle {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 #section5 {
     width: 100%;
-    height: 80%;
-    background-color: lightgray;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#card1 {
+    width: 20%;
+    height: 200px;
+    background-color: red;
+}
+
+#card2 {
+    width: 20%;
+    height: 200px;
+    background-color: blue;
+}
+
+#card3 {
+    width: 20%;
+    height: 200px;
+    background-color: green;
+}
+
+#card4 {
+    width: 20%;
+    height: 200px;
+    background-color: yellow;
 }
 
